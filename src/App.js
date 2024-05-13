@@ -6,7 +6,7 @@ function App() {
     setcount((prev)=>prev+1);
   }
   const handleDec=()=>{
-    setcount((prev)=>prev-1);
+    setcount((prevState)=>prevState-1);
   }
   return (
     <div>
